@@ -11,7 +11,7 @@ class Todo {
     constructor(todoText, key) {
         this.key = key
         this.todoText = todoText
-        this.item = `<div class="item"><span class="todo-title">${this.todoText}</span><div class="item-action"><img onclick="doneItemFromList(${this.key})" id="todo-done" src="check.png"/><img onclick="deleteItemFromList(${this.key})" id="todo-delete" src="delete.png"/></div></div>`
+        this.item = `<div class="item"><div class="todo-title"><span>${this.todoText}</span></div><div class="item-action"><img onclick="doneItemFromList(${this.key})" id="todo-done" src="check.png"/><img onclick="deleteItemFromList(${this.key})" id="todo-delete" src="delete.png"/></div></div>`
     }
 }
 
