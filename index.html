@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outter">
+        <div class="box">
+            <div class="box-insert">
+                <div class="box-heading">
+                    <h2>Insert Todo</h2>
+                </div>
+                <textarea id="todo-textarea" rows="15" cols="40"></textarea>
+                <button onclick="insertTodo()">Todo</button>
+            </div>
+            <div class="warning">
+                <span id="warning-text">Hellow</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-heading">
+                <h2>Todos</h2>
+            </div>
+            <div class="box-todos">
+                <!-- <div class="item">
+                    <span id="todo-title">Do Coding</span>
+                    <div class="item-action">
+                        <img id="todo-done" src="check.png"/>
+                        <img id="todo-delete"  src="delete.png"/>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
